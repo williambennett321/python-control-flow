@@ -10,3 +10,6 @@
 #      The dog's age in dog years is xx
 
 # Hint:  Use the int() function to convert the string returned from input() into an integer
+
+dog_age_in_human_years = int(input("Input a dog's age in human years:"))
+

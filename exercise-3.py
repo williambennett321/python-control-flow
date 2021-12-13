@@ -13,3 +13,10 @@
 
 dog_age_in_human_years = int(input("Input a dog's age in human years:"))
 
+if dog_age_in_human_years <= 2:
+  dog_age_in_human_years *= 10 
+
+elif dog_age_in_human_years > 2:
+  dog_age_in_human_years = ((dog_age_in_human_years-2) * 7) + 20
+
+print(f"the dogs age in human years is {dog_age_in_human_years}")

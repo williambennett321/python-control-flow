@@ -12,3 +12,18 @@
 #      etc.
 
 # Hint: The next number is found by adding the two numbers before it
+
+def fibo(n):
+  first_num = 0
+  second_num = 1
+
+  print(first_num)
+  print(second_num)
+
+  for num in range(2,n):
+    third_num = first_num + second_num
+    first_num = second_num
+    second_num = third_num
+    print(third_num)
+
+fibo(50)

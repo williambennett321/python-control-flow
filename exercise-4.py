@@ -12,3 +12,14 @@
 #      isosceles - two sides are the same length
 # 3. Print a message such as:
 #      - A triangle with sides of <a>, <b> & <c> is a <type of triangle> triangle
+
+length_a = int(input("Enter the first length of the triangle: ")) 
+length_b = int(input("Enter the second length of the triangle: "))
+length_c = int(input("Enter the third length of the triangle: "))
+
+if length_a == length_b and length_a == length_c:
+  print(f"A triangle with sides of {length_a}, {length_b}, {length_c} is a equalateral triangle")
+if length_a != length_b and length_a != length_c:
+  print(f"A triangle with sides of {length_a}, {length_b}, {length_c} is a scalene triangle ")
+if length_a == length_b and length_a != length_c:
+  print(f"A triangle with sides of {length_a}, {length_b}, {length_c} is a isosceles triangle")
